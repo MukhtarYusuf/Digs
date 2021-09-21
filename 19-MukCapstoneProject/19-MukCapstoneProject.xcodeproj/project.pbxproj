@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1416DA22260D4DC80093D967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416DA21260D4DC80093D967 /* AppDelegate.swift */; };
+		1416DA24260D4DC80093D967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416DA23260D4DC80093D967 /* SceneDelegate.swift */; };
+		1416DA26260D4DC80093D967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416DA25260D4DC80093D967 /* ViewController.swift */; };
+		1416DA29260D4DC80093D967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1416DA27260D4DC80093D967 /* Main.storyboard */; };
+		1416DA2B260D4DCB0093D967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1416DA2A260D4DCB0093D967 /* Assets.xcassets */; };
+		1416DA2E260D4DCB0093D967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1416DA2C260D4DCB0093D967 /* LaunchScreen.storyboard */; };
+		1416DA36260D4E360093D967 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1416DA35260D4E350093D967 /* GoogleService-Info.plist */; };
+		1416DA3B260D502E0093D967 /* MukUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416DA3A260D502E0093D967 /* MukUser.swift */; };
+		1416DA3D260D52A50093D967 /* MukProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1416DA3C260D52A50093D967 /* MukProfile.swift */; };
+		143C01B52615337600DD26D7 /* MukLandlordListingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B42615337500DD26D7 /* MukLandlordListingDetailsViewController.swift */; };
+		143C01B726153C1B00DD26D7 /* MukBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B626153C1B00DD26D7 /* MukBaseTableViewController.swift */; };
+		143C01B92617CB7F00DD26D7 /* MukChildImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B82617CB7F00DD26D7 /* MukChildImageViewerViewController.swift */; };
+		143C01BB2617EA1B00DD26D7 /* MukImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BA2617EA1A00DD26D7 /* MukImageViewerViewController.swift */; };
+		143C01BD261927A200DD26D7 /* MukSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BC261927A200DD26D7 /* MukSortViewController.swift */; };
+		143C01BF26193EF500DD26D7 /* MukFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BE26193EF400DD26D7 /* MukFilterViewController.swift */; };
+		143C01C1261B990600DD26D7 /* MukConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143C01C0261B990500DD26D7 /* MukConversationCell.xib */; };
+		143C01C3261BA56600DD26D7 /* MukConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01C2261BA56600DD26D7 /* MukConversationCell.swift */; };
+		143C01C5261BB73200DD26D7 /* MukConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01C4261BB73200DD26D7 /* MukConversationsViewController.swift */; };
+		143C01C7261BC1AF00DD26D7 /* MukMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01C6261BC1AE00DD26D7 /* MukMessagesViewController.swift */; };
+		143C01C9261BC1ED00DD26D7 /* MukMessageSenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143C01C8261BC1ED00DD26D7 /* MukMessageSenderCell.xib */; };
+		143C01CB261BC4E700DD26D7 /* MukMessageSenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01CA261BC4E600DD26D7 /* MukMessageSenderCell.swift */; };
+		143C01CD261BC64A00DD26D7 /* MukMessageReceiverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143C01CC261BC64A00DD26D7 /* MukMessageReceiverCell.xib */; };
+		143C01CF261BC6EB00DD26D7 /* MukMessageReceiverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01CE261BC6EB00DD26D7 /* MukMessageReceiverCell.swift */; };
+		143C01D1261BE3A000DD26D7 /* MukMessageAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143C01D0261BE3A000DD26D7 /* MukMessageAccessoryView.xib */; };
+		143C01D3261BE56C00DD26D7 /* MukMessageAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C01D2261BE56C00DD26D7 /* MukMessageAccessoryView.swift */; };
+		14559DEF261277EF006F59EE /* MukLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559DEE261277EF006F59EE /* MukLoginViewController.swift */; };
+		14559DF1261295BE006F59EE /* MukSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559DF0261295BE006F59EE /* MukSignupViewController.swift */; };
+		14559DF526129689006F59EE /* MukTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559DF426129689006F59EE /* MukTextField.swift */; };
+		14559DF72612A2D2006F59EE /* MukActivityIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14559DF62612A2D2006F59EE /* MukActivityIndicator.xib */; };
+		14559DF92612A3EF006F59EE /* MukActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559DF82612A3EF006F59EE /* MukActivityIndicator.swift */; };
+		14559DFB2612C514006F59EE /* MukSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14559DFA2612C514006F59EE /* MukSuccessView.xib */; };
+		14559DFD2612C7BA006F59EE /* MukSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559DFC2612C7BA006F59EE /* MukSuccessView.swift */; };
+		14559DFF2613DF55006F59EE /* MukListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14559DFE2613DF55006F59EE /* MukListingCell.xib */; };
+		14559E012613F030006F59EE /* MukListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559E002613F030006F59EE /* MukListingCell.swift */; };
+		14559E032613F8E2006F59EE /* MukListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559E022613F8E2006F59EE /* MukListingsViewController.swift */; };
+		146B3045261CFF9D00350C68 /* MukTenantListingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B3044261CFF9D00350C68 /* MukTenantListingDetailsViewController.swift */; };
+		146B3047261D4C9F00350C68 /* MukCheckAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B3046261D4C9F00350C68 /* MukCheckAvailabilityViewController.swift */; };
+		146B3049261E8C5000350C68 /* MukMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B3048261E8C5000350C68 /* MukMoreViewController.swift */; };
+		146B304B261E92B800350C68 /* MukEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B304A261E92B700350C68 /* MukEditProfileViewController.swift */; };
+		146B304D261F8D9300350C68 /* MukButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B304C261F8D9200350C68 /* MukButton.swift */; };
+		146B304F261F98A700350C68 /* MukChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B304E261F98A700350C68 /* MukChangePasswordViewController.swift */; };
+		146B3051261FC08000350C68 /* MukScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B3050261FC08000350C68 /* MukScreenViewController.swift */; };
+		146B3053261FC10500350C68 /* MukScreenResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B3052261FC10500350C68 /* MukScreenResultsViewController.swift */; };
+		146B305526228DB700350C68 /* MukNoResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B305426228DB500350C68 /* MukNoResultsCell.xib */; };
+		14A99613260E820E00180906 /* MukListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A99612260E820E00180906 /* MukListing.swift */; };
+		14A99615260FE3D400180906 /* MukConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A99614260FE3D300180906 /* MukConversation.swift */; };
+		14A99617260FE5DA00180906 /* MukMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A99616260FE5DA00180906 /* MukMessage.swift */; };
+		14A99619261137DE00180906 /* MukBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A99618261137DE00180906 /* MukBaseViewController.swift */; };
+		14A9961B261176A600180906 /* MukLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9961A261176A600180906 /* MukLaunchViewController.swift */; };
+		FB0D3486793AED0C65F62FB6 /* Pods_19_MukCapstoneProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C470E4736CA5D9FAA1808 /* Pods_19_MukCapstoneProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1416DA1E260D4DC80093D967 /* 19-MukCapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "19-MukCapstoneProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1416DA21260D4DC80093D967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1416DA23260D4DC80093D967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1416DA25260D4DC80093D967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1416DA28260D4DC80093D967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1416DA2A260D4DCB0093D967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1416DA2D260D4DCB0093D967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1416DA2F260D4DCB0093D967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1416DA35260D4E350093D967 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1416DA3A260D502E0093D967 /* MukUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukUser.swift; sourceTree = "<group>"; };
+		1416DA3C260D52A50093D967 /* MukProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukProfile.swift; sourceTree = "<group>"; };
+		143C01B42615337500DD26D7 /* MukLandlordListingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukLandlordListingDetailsViewController.swift; sourceTree = "<group>"; };
+		143C01B626153C1B00DD26D7 /* MukBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukBaseTableViewController.swift; sourceTree = "<group>"; };
+		143C01B82617CB7F00DD26D7 /* MukChildImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukChildImageViewerViewController.swift; sourceTree = "<group>"; };
+		143C01BA2617EA1A00DD26D7 /* MukImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukImageViewerViewController.swift; sourceTree = "<group>"; };
+		143C01BC261927A200DD26D7 /* MukSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukSortViewController.swift; sourceTree = "<group>"; };
+		143C01BE26193EF400DD26D7 /* MukFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukFilterViewController.swift; sourceTree = "<group>"; };
+		143C01C0261B990500DD26D7 /* MukConversationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukConversationCell.xib; sourceTree = "<group>"; };
+		143C01C2261BA56600DD26D7 /* MukConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukConversationCell.swift; sourceTree = "<group>"; };
+		143C01C4261BB73200DD26D7 /* MukConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukConversationsViewController.swift; sourceTree = "<group>"; };
+		143C01C6261BC1AE00DD26D7 /* MukMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMessagesViewController.swift; sourceTree = "<group>"; };
+		143C01C8261BC1ED00DD26D7 /* MukMessageSenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukMessageSenderCell.xib; sourceTree = "<group>"; };
+		143C01CA261BC4E600DD26D7 /* MukMessageSenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMessageSenderCell.swift; sourceTree = "<group>"; };
+		143C01CC261BC64A00DD26D7 /* MukMessageReceiverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukMessageReceiverCell.xib; sourceTree = "<group>"; };
+		143C01CE261BC6EB00DD26D7 /* MukMessageReceiverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMessageReceiverCell.swift; sourceTree = "<group>"; };
+		143C01D0261BE3A000DD26D7 /* MukMessageAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukMessageAccessoryView.xib; sourceTree = "<group>"; };
+		143C01D2261BE56C00DD26D7 /* MukMessageAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMessageAccessoryView.swift; sourceTree = "<group>"; };
+		14559DEE261277EF006F59EE /* MukLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukLoginViewController.swift; sourceTree = "<group>"; };
+		14559DF0261295BE006F59EE /* MukSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukSignupViewController.swift; sourceTree = "<group>"; };
+		14559DF426129689006F59EE /* MukTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukTextField.swift; sourceTree = "<group>"; };
+		14559DF62612A2D2006F59EE /* MukActivityIndicator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukActivityIndicator.xib; sourceTree = "<group>"; };
+		14559DF82612A3EF006F59EE /* MukActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukActivityIndicator.swift; sourceTree = "<group>"; };
+		14559DFA2612C514006F59EE /* MukSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukSuccessView.xib; sourceTree = "<group>"; };
+		14559DFC2612C7BA006F59EE /* MukSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukSuccessView.swift; sourceTree = "<group>"; };
+		14559DFE2613DF55006F59EE /* MukListingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MukListingCell.xib; sourceTree = "<group>"; };
+		14559E002613F030006F59EE /* MukListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukListingCell.swift; sourceTree = "<group>"; };
+		14559E022613F8E2006F59EE /* MukListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukListingsViewController.swift; sourceTree = "<group>"; };
+		146B3044261CFF9D00350C68 /* MukTenantListingDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukTenantListingDetailsViewController.swift; sourceTree = "<group>"; };
+		146B3046261D4C9F00350C68 /* MukCheckAvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukCheckAvailabilityViewController.swift; sourceTree = "<group>"; };
+		146B3048261E8C5000350C68 /* MukMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMoreViewController.swift; sourceTree = "<group>"; };
+		146B304A261E92B700350C68 /* MukEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukEditProfileViewController.swift; sourceTree = "<group>"; };
+		146B304C261F8D9200350C68 /* MukButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukButton.swift; sourceTree = "<group>"; };
+		146B304E261F98A700350C68 /* MukChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukChangePasswordViewController.swift; sourceTree = "<group>"; };
+		146B3050261FC08000350C68 /* MukScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukScreenViewController.swift; sourceTree = "<group>"; };
+		146B3052261FC10500350C68 /* MukScreenResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukScreenResultsViewController.swift; sourceTree = "<group>"; };
+		146B305426228DB500350C68 /* MukNoResultsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MukNoResultsCell.xib; sourceTree = "<group>"; };
+		14A99612260E820E00180906 /* MukListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukListing.swift; sourceTree = "<group>"; };
+		14A99614260FE3D300180906 /* MukConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukConversation.swift; sourceTree = "<group>"; };
+		14A99616260FE5DA00180906 /* MukMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukMessage.swift; sourceTree = "<group>"; };
+		14A99618261137DE00180906 /* MukBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukBaseViewController.swift; sourceTree = "<group>"; };
+		14A9961A261176A600180906 /* MukLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MukLaunchViewController.swift; sourceTree = "<group>"; };
+		5A8CE4368C8F72432B0F8497 /* Pods-19-MukCapstoneProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-19-MukCapstoneProject.debug.xcconfig"; path = "Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject.debug.xcconfig"; sourceTree = "<group>"; };
+		814C470E4736CA5D9FAA1808 /* Pods_19_MukCapstoneProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_19_MukCapstoneProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BC4D9B2C7126550372A855 /* Pods-19-MukCapstoneProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-19-MukCapstoneProject.release.xcconfig"; path = "Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1416DA1B260D4DC80093D967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0D3486793AED0C65F62FB6 /* Pods_19_MukCapstoneProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1416DA15260D4DC80093D967 = {
+			isa = PBXGroup;
+			children = (
+				1416DA20260D4DC80093D967 /* 19-MukCapstoneProject */,
+				1416DA1F260D4DC80093D967 /* Products */,
+				3E3FE0A8A1B73A3B218222CA /* Pods */,
+				7ADC448F859574FDD07BCCE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1416DA1F260D4DC80093D967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1416DA1E260D4DC80093D967 /* 19-MukCapstoneProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1416DA20260D4DC80093D967 /* 19-MukCapstoneProject */ = {
+			isa = PBXGroup;
+			children = (
+				1416DA39260D501B0093D967 /* View Controllers */,
+				1416DA38260D50140093D967 /* Views */,
+				1416DA37260D500A0093D967 /* Models */,
+				1416DA21260D4DC80093D967 /* AppDelegate.swift */,
+				1416DA23260D4DC80093D967 /* SceneDelegate.swift */,
+				1416DA25260D4DC80093D967 /* ViewController.swift */,
+				1416DA27260D4DC80093D967 /* Main.storyboard */,
+				1416DA2A260D4DCB0093D967 /* Assets.xcassets */,
+				1416DA2C260D4DCB0093D967 /* LaunchScreen.storyboard */,
+				1416DA2F260D4DCB0093D967 /* Info.plist */,
+				1416DA35260D4E350093D967 /* GoogleService-Info.plist */,
+			);
+			path = "19-MukCapstoneProject";
+			sourceTree = "<group>";
+		};
+		1416DA37260D500A0093D967 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1416DA3A260D502E0093D967 /* MukUser.swift */,
+				1416DA3C260D52A50093D967 /* MukProfile.swift */,
+				14A99612260E820E00180906 /* MukListing.swift */,
+				14A99614260FE3D300180906 /* MukConversation.swift */,
+				14A99616260FE5DA00180906 /* MukMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1416DA38260D50140093D967 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14559DF326129671006F59EE /* Classes */,
+				14559DF226129663006F59EE /* Nibs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1416DA39260D501B0093D967 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14A99618261137DE00180906 /* MukBaseViewController.swift */,
+				14A9961A261176A600180906 /* MukLaunchViewController.swift */,
+				14559DEE261277EF006F59EE /* MukLoginViewController.swift */,
+				14559DF0261295BE006F59EE /* MukSignupViewController.swift */,
+				14559E022613F8E2006F59EE /* MukListingsViewController.swift */,
+				143C01B42615337500DD26D7 /* MukLandlordListingDetailsViewController.swift */,
+				143C01B626153C1B00DD26D7 /* MukBaseTableViewController.swift */,
+				143C01B82617CB7F00DD26D7 /* MukChildImageViewerViewController.swift */,
+				143C01BA2617EA1A00DD26D7 /* MukImageViewerViewController.swift */,
+				143C01BC261927A200DD26D7 /* MukSortViewController.swift */,
+				143C01BE26193EF400DD26D7 /* MukFilterViewController.swift */,
+				143C01C4261BB73200DD26D7 /* MukConversationsViewController.swift */,
+				143C01C6261BC1AE00DD26D7 /* MukMessagesViewController.swift */,
+				146B3044261CFF9D00350C68 /* MukTenantListingDetailsViewController.swift */,
+				146B3046261D4C9F00350C68 /* MukCheckAvailabilityViewController.swift */,
+				146B3048261E8C5000350C68 /* MukMoreViewController.swift */,
+				146B304A261E92B700350C68 /* MukEditProfileViewController.swift */,
+				146B304E261F98A700350C68 /* MukChangePasswordViewController.swift */,
+				146B3050261FC08000350C68 /* MukScreenViewController.swift */,
+				146B3052261FC10500350C68 /* MukScreenResultsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		14559DF226129663006F59EE /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				14559DF62612A2D2006F59EE /* MukActivityIndicator.xib */,
+				14559DFA2612C514006F59EE /* MukSuccessView.xib */,
+				14559DFE2613DF55006F59EE /* MukListingCell.xib */,
+				146B305426228DB500350C68 /* MukNoResultsCell.xib */,
+				143C01C0261B990500DD26D7 /* MukConversationCell.xib */,
+				143C01C8261BC1ED00DD26D7 /* MukMessageSenderCell.xib */,
+				143C01CC261BC64A00DD26D7 /* MukMessageReceiverCell.xib */,
+				143C01D0261BE3A000DD26D7 /* MukMessageAccessoryView.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		14559DF326129671006F59EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14559DF426129689006F59EE /* MukTextField.swift */,
+				14559DF82612A3EF006F59EE /* MukActivityIndicator.swift */,
+				14559DFC2612C7BA006F59EE /* MukSuccessView.swift */,
+				14559E002613F030006F59EE /* MukListingCell.swift */,
+				143C01C2261BA56600DD26D7 /* MukConversationCell.swift */,
+				143C01CA261BC4E600DD26D7 /* MukMessageSenderCell.swift */,
+				143C01CE261BC6EB00DD26D7 /* MukMessageReceiverCell.swift */,
+				143C01D2261BE56C00DD26D7 /* MukMessageAccessoryView.swift */,
+				146B304C261F8D9200350C68 /* MukButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E3FE0A8A1B73A3B218222CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8CE4368C8F72432B0F8497 /* Pods-19-MukCapstoneProject.debug.xcconfig */,
+				F0BC4D9B2C7126550372A855 /* Pods-19-MukCapstoneProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7ADC448F859574FDD07BCCE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814C470E4736CA5D9FAA1808 /* Pods_19_MukCapstoneProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1416DA1D260D4DC80093D967 /* 19-MukCapstoneProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1416DA32260D4DCB0093D967 /* Build configuration list for PBXNativeTarget "19-MukCapstoneProject" */;
+			buildPhases = (
+				EEECD5DC504D9D400849E61F /* [CP] Check Pods Manifest.lock */,
+				1416DA1A260D4DC80093D967 /* Sources */,
+				1416DA1B260D4DC80093D967 /* Frameworks */,
+				1416DA1C260D4DC80093D967 /* Resources */,
+				060C03EEDD3093E8C2D12BC7 /* [CP] Embed Pods Frameworks */,
+				23E50C4F3B7B6CE34B212074 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-MukCapstoneProject";
+			productName = "19-MukCapstoneProject";
+			productReference = 1416DA1E260D4DC80093D967 /* 19-MukCapstoneProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1416DA16260D4DC80093D967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Mukhtar Yusuf";
+				TargetAttributes = {
+					1416DA1D260D4DC80093D967 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1416DA19260D4DC80093D967 /* Build configuration list for PBXProject "19-MukCapstoneProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1416DA15260D4DC80093D967;
+			productRefGroup = 1416DA1F260D4DC80093D967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1416DA1D260D4DC80093D967 /* 19-MukCapstoneProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1416DA1C260D4DC80093D967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143C01C9261BC1ED00DD26D7 /* MukMessageSenderCell.xib in Resources */,
+				146B305526228DB700350C68 /* MukNoResultsCell.xib in Resources */,
+				143C01C1261B990600DD26D7 /* MukConversationCell.xib in Resources */,
+				143C01CD261BC64A00DD26D7 /* MukMessageReceiverCell.xib in Resources */,
+				14559DF72612A2D2006F59EE /* MukActivityIndicator.xib in Resources */,
+				143C01D1261BE3A000DD26D7 /* MukMessageAccessoryView.xib in Resources */,
+				1416DA2E260D4DCB0093D967 /* LaunchScreen.storyboard in Resources */,
+				1416DA36260D4E360093D967 /* GoogleService-Info.plist in Resources */,
+				14559DFF2613DF55006F59EE /* MukListingCell.xib in Resources */,
+				1416DA2B260D4DCB0093D967 /* Assets.xcassets in Resources */,
+				14559DFB2612C514006F59EE /* MukSuccessView.xib in Resources */,
+				1416DA29260D4DC80093D967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060C03EEDD3093E8C2D12BC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23E50C4F3B7B6CE34B212074 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-19-MukCapstoneProject/Pods-19-MukCapstoneProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEECD5DC504D9D400849E61F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-19-MukCapstoneProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1416DA1A260D4DC80093D967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14559DEF261277EF006F59EE /* MukLoginViewController.swift in Sources */,
+				1416DA3B260D502E0093D967 /* MukUser.swift in Sources */,
+				1416DA26260D4DC80093D967 /* ViewController.swift in Sources */,
+				1416DA3D260D52A50093D967 /* MukProfile.swift in Sources */,
+				14A99615260FE3D400180906 /* MukConversation.swift in Sources */,
+				14559DFD2612C7BA006F59EE /* MukSuccessView.swift in Sources */,
+				143C01B92617CB7F00DD26D7 /* MukChildImageViewerViewController.swift in Sources */,
+				143C01C5261BB73200DD26D7 /* MukConversationsViewController.swift in Sources */,
+				143C01CB261BC4E700DD26D7 /* MukMessageSenderCell.swift in Sources */,
+				146B3053261FC10500350C68 /* MukScreenResultsViewController.swift in Sources */,
+				14559E012613F030006F59EE /* MukListingCell.swift in Sources */,
+				143C01CF261BC6EB00DD26D7 /* MukMessageReceiverCell.swift in Sources */,
+				1416DA22260D4DC80093D967 /* AppDelegate.swift in Sources */,
+				14559DF1261295BE006F59EE /* MukSignupViewController.swift in Sources */,
+				143C01BD261927A200DD26D7 /* MukSortViewController.swift in Sources */,
+				143C01BB2617EA1B00DD26D7 /* MukImageViewerViewController.swift in Sources */,
+				14A99617260FE5DA00180906 /* MukMessage.swift in Sources */,
+				146B3051261FC08000350C68 /* MukScreenViewController.swift in Sources */,
+				14559DF92612A3EF006F59EE /* MukActivityIndicator.swift in Sources */,
+				14A99619261137DE00180906 /* MukBaseViewController.swift in Sources */,
+				14A99613260E820E00180906 /* MukListing.swift in Sources */,
+				146B304D261F8D9300350C68 /* MukButton.swift in Sources */,
+				146B304F261F98A700350C68 /* MukChangePasswordViewController.swift in Sources */,
+				143C01BF26193EF500DD26D7 /* MukFilterViewController.swift in Sources */,
+				146B304B261E92B800350C68 /* MukEditProfileViewController.swift in Sources */,
+				143C01C7261BC1AF00DD26D7 /* MukMessagesViewController.swift in Sources */,
+				146B3049261E8C5000350C68 /* MukMoreViewController.swift in Sources */,
+				14A9961B261176A600180906 /* MukLaunchViewController.swift in Sources */,
+				143C01D3261BE56C00DD26D7 /* MukMessageAccessoryView.swift in Sources */,
+				14559DF526129689006F59EE /* MukTextField.swift in Sources */,
+				146B3045261CFF9D00350C68 /* MukTenantListingDetailsViewController.swift in Sources */,
+				146B3047261D4C9F00350C68 /* MukCheckAvailabilityViewController.swift in Sources */,
+				1416DA24260D4DC80093D967 /* SceneDelegate.swift in Sources */,
+				143C01C3261BA56600DD26D7 /* MukConversationCell.swift in Sources */,
+				143C01B52615337600DD26D7 /* MukLandlordListingDetailsViewController.swift in Sources */,
+				143C01B726153C1B00DD26D7 /* MukBaseTableViewController.swift in Sources */,
+				14559E032613F8E2006F59EE /* MukListingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1416DA27260D4DC80093D967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1416DA28260D4DC80093D967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1416DA2C260D4DCB0093D967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1416DA2D260D4DCB0093D967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1416DA30260D4DCB0093D967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1416DA31260D4DCB0093D967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1416DA33260D4DCB0093D967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8CE4368C8F72432B0F8497 /* Pods-19-MukCapstoneProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = "19-MukCapstoneProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.-9-MukCapstoneProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1416DA34260D4DCB0093D967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BC4D9B2C7126550372A855 /* Pods-19-MukCapstoneProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QBV7H6RX5;
+				INFOPLIST_FILE = "19-MukCapstoneProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MukhtarYusuf.-9-MukCapstoneProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1416DA19260D4DC80093D967 /* Build configuration list for PBXProject "19-MukCapstoneProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1416DA30260D4DCB0093D967 /* Debug */,
+				1416DA31260D4DCB0093D967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1416DA32260D4DCB0093D967 /* Build configuration list for PBXNativeTarget "19-MukCapstoneProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1416DA33260D4DCB0093D967 /* Debug */,
+				1416DA34260D4DCB0093D967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1416DA16260D4DC80093D967 /* Project object */;
+}

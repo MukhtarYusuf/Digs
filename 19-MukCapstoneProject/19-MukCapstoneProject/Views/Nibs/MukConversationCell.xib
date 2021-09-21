@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MukConversationCell" rowHeight="115" id="XgM-mv-yjJ" customClass="MukConversationCell" customModule="_9_MukCapstoneProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XgM-mv-yjJ" id="71i-ar-Vnp">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MjL-a2-70R">
+                        <rect key="frame" x="8" y="0.0" width="328" height="115"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="735" translatesAutoresizingMaskIntoConstraints="NO" id="TKs-Bp-mtW">
+                                <rect key="frame" x="0.0" y="23" width="69" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TKs-Bp-mtW" secondAttribute="height" multiplier="1:1" id="gqH-mn-RGw"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-IM-YTh">
+                                <rect key="frame" x="79" y="22" width="249" height="71"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayy-ZL-zss">
+                                        <rect key="frame" x="0.0" y="0.0" width="249" height="19.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Mukhtar Yusuf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUu-70-fg6">
+                                                <rect key="frame" x="0.0" y="0.0" width="196" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:15 AM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1p-Fe-3Se">
+                                                <rect key="frame" x="196" y="0.0" width="53" height="19.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm very interested in this listing and would love to schedule an appointment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpI-op-maE">
+                                        <rect key="frame" x="0.0" y="32.5" width="249" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TKs-Bp-mtW" firstAttribute="height" secondItem="MjL-a2-70R" secondAttribute="height" multiplier="0.6" id="7q2-JO-pdl"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MjL-a2-70R" firstAttribute="top" secondItem="71i-ar-Vnp" secondAttribute="top" id="SMv-cT-UlQ"/>
+                    <constraint firstItem="MjL-a2-70R" firstAttribute="leading" secondItem="71i-ar-Vnp" secondAttribute="leading" constant="8" id="Tuw-4X-cLu"/>
+                    <constraint firstAttribute="trailing" secondItem="MjL-a2-70R" secondAttribute="trailing" constant="8" id="VOE-YJ-xM6"/>
+                    <constraint firstAttribute="bottom" secondItem="MjL-a2-70R" secondAttribute="bottom" id="ekb-qX-pZn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mukImage" destination="TKs-Bp-mtW" id="V3e-Iq-f9l"/>
+                <outlet property="mukLastMessageLabel" destination="FpI-op-maE" id="1l0-Jk-UhT"/>
+                <outlet property="mukNameLabel" destination="ZUu-70-fg6" id="IiZ-yg-e9R"/>
+                <outlet property="mukTimeLabel" destination="E1p-Fe-3Se" id="5Bz-hI-yKl"/>
+            </connections>
+            <point key="canvasLocation" x="-187.68115942028987" y="63.28125"/>
+        </tableViewCell>
+    </objects>
+</document>

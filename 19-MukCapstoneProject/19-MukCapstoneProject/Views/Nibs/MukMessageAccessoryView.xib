@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MukMessageAccessoryView" customModule="_9_MukCapstoneProject" customModuleProvider="target">
+            <connections>
+                <outlet property="mukContentView" destination="V05-S8-Opj" id="LUV-fw-jlZ"/>
+                <outlet property="mukMessageTextField" destination="gAh-ri-pJt" id="rGa-4R-baT"/>
+                <outlet property="mukSendButton" destination="7GF-hw-PRc" id="9wr-8n-T5N"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="V05-S8-Opj">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-ri-pJt" customClass="MukTextField" customModule="_9_MukCapstoneProject" customModuleProvider="target">
+                    <rect key="frame" x="20" y="8" width="330" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GF-hw-PRc">
+                    <rect key="frame" x="358" y="10" width="36" height="30"/>
+                    <state key="normal" title="Send">
+                        <color key="titleColor" red="0.63921568630000003" green="0.29270067399999999" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7GF-hw-PRc" secondAttribute="trailing" constant="20" id="Lhw-h8-1F1"/>
+                <constraint firstItem="gAh-ri-pJt" firstAttribute="centerY" secondItem="V05-S8-Opj" secondAttribute="centerY" id="NcD-Yx-cMw"/>
+                <constraint firstItem="gAh-ri-pJt" firstAttribute="leading" secondItem="V05-S8-Opj" secondAttribute="leading" constant="20" id="Z3q-Vu-qV4"/>
+                <constraint firstItem="7GF-hw-PRc" firstAttribute="leading" secondItem="gAh-ri-pJt" secondAttribute="trailing" constant="8" id="axj-gV-kBs"/>
+                <constraint firstItem="7GF-hw-PRc" firstAttribute="centerY" secondItem="gAh-ri-pJt" secondAttribute="centerY" id="bHO-pY-PQn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fRP-Sq-piN"/>
+            <point key="canvasLocation" x="121.73913043478262" y="-97.098214285714278"/>
+        </view>
+    </objects>
+</document>
